@@ -9,7 +9,7 @@
 
 	if(isset($_REQUEST['password'])){
 
-		if(md5($_REQUEST['password'])=="02c75fb22c75b23dc963c7eb91a062cc"){
+		if(md5($_REQUEST['password'])=="02c75fb22c75b23dc963c7eb91a062cc"){  /* compare user supplied password with the md5 hash of our correct password */
 				show_flag('GIT_RAID');
 		}
 		else{
